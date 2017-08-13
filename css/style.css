@@ -1,0 +1,270 @@
+/* ============================================================
+  Colours
+============================================================ */
+body {
+  background: #000;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica; }
+
+.one {
+  background-image: url(../img/img1.jpg);
+  background-size: cover;
+  background-position: 50% 0px;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  margin: 0; }
+  .one__header {
+    position: relative;
+    top: 3em;
+    font-size: 8em;
+    left: -1.5em;
+    color: #fff;
+    width: 100%;
+    background: inherit;
+    background-position: 50% -192px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+    filter: invert(1);
+    margin: 0; }
+  .one__link {
+    display: block;
+    position: relative;
+    top: 10em;
+    font-size: 4em;
+    left: -3em;
+    color: #fff;
+    width: 100%;
+    background: inherit;
+    background-position: 50% -393.5px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+    filter: invert(1);
+    margin: 0; }
+
+.two {
+  background-color: #1a1a1a;
+  display: flex;
+  height: 110vh;
+  width: 100%; }
+  .two__left {
+    flex: 0 0 50%; }
+  .two__right {
+    flex: 0 0 50%; }
+  .two__port {
+    width: 50%;
+    height: 100vh;
+    margin: 5em auto 2em auto;
+    border-radius: 30em; }
+  .two__img {
+    background-size: cover;
+    background-image: url(../img/img2.jpg);
+    width: 100%;
+    height: 100%;
+    border-radius: 30em;
+    background-repeat: no-repeat; }
+  .two__header {
+    color: #DEAF5A;
+    padding-top: 10em;
+    padding-left: 10em; }
+  .two__text {
+    color: #DEAF5A;
+    font-size: 1.3em;
+    padding-top: 2em;
+    width: 30em;
+    padding-left: 8em; }
+
+.three {
+  height: 100vh;
+  position: relative;
+  background-color: #000; }
+  .three__circle {
+    background-image: url(../img/img3.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    -webkit-clip-path: circle(3% at 50% 50%);
+    clip-path: circle(3% at 50% 50%);
+    transition: all 5s ease; }
+    .three__circle:hover {
+      -webkit-clip-path: circle(70.7% at 50% 50%);
+      clip-path: circle(70.7% at 50% 50%); }
+  .three__header {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    color: #deaf5a;
+    transform: translate(-50%, -50%); }
+
+.four {
+  display: flex;
+  height: 100vh;
+  background-color: #1a1a1a; }
+  .four__content {
+    height: 100%;
+    width: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/img5.jpg);
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); }
+  .four__header {
+    color: #DEAF5A;
+    padding-top: 10em;
+    padding-left: 10em; }
+  .four__text {
+    color: #DEAF5A;
+    font-size: 1.3em;
+    padding-top: 2em;
+    width: 30em;
+    padding-left: 8em; }
+
+.five {
+  background: #000;
+  height: 100vh;
+  background-image: url(../img/img4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-clip-path: circle(200px);
+  clip-path: circle(200px); }
+
+.six {
+  display: flex;
+  height: 100vh;
+  background-color: #1a1a1a; }
+  .six__content {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
+    clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
+    transition: background-image ease-in 1.5s; }
+    .six__content--img0 {
+      background-image: url(../img/slider0.jpg); }
+    .six__content--img1 {
+      background-image: url(../img/slider1.jpg); }
+    .six__content--img2 {
+      background-image: url(../img/slider2.jpg); }
+    .six__content--img3 {
+      background-image: url(../img/slider3.jpg); }
+    .six__content--img4 {
+      background-image: url(../img/slider4.jpg); }
+  .six__header {
+    color: #DEAF5A;
+    padding-top: 10em;
+    padding-left: 10em; }
+  .six__info {
+    flex: 0 0 30%; }
+  .six__text {
+    color: #DEAF5A;
+    font-size: 1.3em;
+    padding-top: 2em;
+    width: 30em;
+    padding-left: 8em; }
+
+.seven {
+  height: 100vh;
+  position: relative;
+  background-color: #1a1a1a; }
+  .seven__header {
+    color: #DEAF5A;
+    width: 100%;
+    text-align: center;
+    padding-top: 5em;
+    font-size: 2em; }
+
+.contact {
+  display: grid;
+  justify-content: center;
+  grid-gap: 1em;
+  padding-bottom: 2em;
+  color: #deaf5a; }
+  .contact__label {
+    position: relative;
+    display: block;
+    border-bottom: 4px solid #deaf5a; }
+  .contact__input {
+    box-sizing: border-box;
+    display: block;
+    border: none;
+    padding: 1em;
+    width: 35em;
+    font-size: 1em;
+    outline: none;
+    transition: all 0.2s ease-in-out; }
+    .contact__input:input-placeholder {
+      transition: all 0.2s ease-in-out;
+      color: #999;
+      font: 1em Helvetica, Arial, sans-serif; }
+  .contact__submit {
+    transition: all 0.2s ease-in-out;
+    font: 18px Helvetica, Arial, sans-serif;
+    border: none;
+    background: #deaf5a;
+    color: #000;
+    padding: 16px 40px; }
+    .contact__submit:hover {
+      background: #109f67; }
+  .contact__span {
+    color: #72a0e0;
+    font: 0.7em Helvetica, Arial, sans-serif;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    opacity: 0;
+    transition: all 0.2s ease-in-out; }
+  .contact__message {
+    box-sizing: border-box;
+    display: block;
+    border: none;
+    padding: 1em;
+    width: 35em;
+    height: 10em;
+    font-size: 1em;
+    outline: none;
+    resize: none;
+    transition: all 0.2s ease-in-out;
+    font-family: Helvetica; }
+
+.error-message {
+  position: absolute;
+  left: 54%;
+  top: 1em;
+  width: 100%;
+  color: red; }
+
+form label textarea:focus, form label textarea.populated {
+  padding-top: 2em;
+  padding-bottom: 0.8em; }
+
+form label textarea:focus::placeholder, form label textarea.populated::placeholder {
+  color: transparent; }
+
+form label textarea:focus + span, form label textarea.populated + span {
+  opacity: 1;
+  top: 10px; }
+
+form label input:focus, form label input.populated {
+  padding-top: 2em;
+  padding-bottom: 0.8em; }
+
+form label input:focus::placeholder, form label input.populated::placeholder {
+  color: transparent; }
+
+form label input:focus + span, form label input.populated + span {
+  opacity: 1;
+  top: 10px; }
